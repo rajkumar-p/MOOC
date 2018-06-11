@@ -6,7 +6,7 @@
 class SMTP_Email: public Email {
 public:
     SMTP_Email();
-    SMTP_Email(std::string from, std::string to, std::string content);
+    SMTP_Email(std::string from, std::string to, EmailContent *content);
 
     void send();
 };

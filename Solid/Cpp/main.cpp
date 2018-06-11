@@ -10,7 +10,6 @@ int main(int argc, char *argv[])
     std::unique_ptr<Email> email = std::make_unique<SMTP_Email>();
     email->set_from("raj@diskodev.com");
     email->set_to("john.doe@example.com");
-    email->set_content("Hello World!!!");
 
     email->print();
 

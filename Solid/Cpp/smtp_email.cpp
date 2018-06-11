@@ -6,7 +6,7 @@ SMTP_Email::SMTP_Email()
 
 }
 
-SMTP_Email::SMTP_Email(std::string from, std::string to, std::string content)
+SMTP_Email::SMTP_Email(std::string from, std::string to, EmailContent *content)
     : Email(from, to, content)
 {
 
