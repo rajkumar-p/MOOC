@@ -1,0 +1,6 @@
+# Build directory
+build/
+
+# Binaries
+solid
+*.o
